@@ -1,0 +1,26 @@
+<linker>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Toggle">
+			<method name="set_isOn"/>
+		</type>
+	</assembly>
+	<assembly fullname="WebXR.Samples.Scripts" ignoreIfMissing="1">
+		<type fullname="WebXR.Interactions.ControllerInteraction">
+			<method name="SetUseInputProfile"/>
+			<method name="SetUseInputProfile"/>
+		</type>
+		<type fullname="WebXR.Interactions.MixedRealityCaptureController">
+			<method name="EnableInXR"/>
+		</type>
+		<type fullname="WebXR.Interactions.SpectatorCamera">
+			<method name="EnableCameraInXR"/>
+		</type>
+	</assembly>
+</linker>

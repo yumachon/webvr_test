@@ -1,0 +1,484 @@
+Unity Editor version:    2022.3.5f1 (9674261d40ee)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2 (Build 23C64)
+Darwin version:          23.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/takushimayuma/webGL_sample
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57060
+Successfully changed project path to: /Users/takushimayuma/webGL_sample
+/Users/takushimayuma/webGL_sample
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704563116928] Host "[IP] 192.168.11.27 [Port] 0 [Flags] 2 [Guid] 338708727 [EditorId] 338708727 [Version] 1048832 [Id] OSXEditor(0,takushimayuushinnoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704563116928] Host "[IP] 192.168.11.27 [Port] 0 [Flags] 2 [Guid] 338708727 [EditorId] 338708727 [Version] 1048832 [Id] OSXEditor(0,takushimayuushinnoMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/takushimayuma/webGL_sample/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56987
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006031 seconds.
+- Loaded All Assemblies, in  0.899 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 259 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.335 seconds
+Domain Reload Profiling: 2234ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (399ms)
+				TypeCache.ScanAssembly (369ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (681ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/takushimayuma/webGL_sample/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/takushimayuma/webGL_sample/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.746 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 2783ms
+	BeginReloadAssembly (374ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1161ms)
+		LoadAssemblies (696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (674ms)
+			TypeCache.Refresh (637ms)
+				TypeCache.ScanAssembly (610ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1036ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (486ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (56.1 KB). Loaded Objects now: 3655.
+Memory consumption went from 132.5 MB to 132.5 MB.
+Total: 4.899508 ms (FindLiveObjects: 0.353851 ms CreateObjectMapping: 0.280467 ms MarkObjects: 4.077340 ms  DeleteObjects: 0.186476 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15608.687835 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes
+  artifactKey: Guid(6f3a5dd273267490287a039862593c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes using Guid(6f3a5dd273267490287a039862593c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c48c1081ce435529c2eaed4ef16cbbe') in 0.005073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.830382 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert
+  artifactKey: Guid(cf27ecf075466aa47ac3d9354a1b3989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert using Guid(cf27ecf075466aa47ac3d9354a1b3989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d58b4948b04e09174f6146d09f0a215') in 0.000551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092935 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/LightingData.asset
+  artifactKey: Guid(0d9d64e4dc32d984e9ea99ef8bf1e1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/LightingData.asset using Guid(0d9d64e4dc32d984e9ea99ef8bf1e1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd8602f1ea623edec8a9a5ab8df776d') in 0.023451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-1.exr
+  artifactKey: Guid(2817a454d0ac0d641a981cd7d3290a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-1.exr using Guid(2817a454d0ac0d641a981cd7d3290a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8f1ced3e339d06484717ef8ce9471f') in 0.278055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-3.exr
+  artifactKey: Guid(7c07e28e74ac1cd40b56cd51dd3e482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-3.exr using Guid(7c07e28e74ac1cd40b56cd51dd3e482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d9e58cfed10534412c0f5c132b9bf0') in 0.020882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-2.exr
+  artifactKey: Guid(a46feeb11e4d5f44f91aed5ab08bae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-2.exr using Guid(a46feeb11e4d5f44f91aed5ab08bae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91739866b374ffaa09a2b34ea0c45d7b') in 0.015780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-5.exr
+  artifactKey: Guid(7ab67428ae8f4e047ae7e5617f8d1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-5.exr using Guid(7ab67428ae8f4e047ae7e5617f8d1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae40fd0506bf5e8f9cdf636e3a32a5b') in 0.033193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-6.exr
+  artifactKey: Guid(cfe18b542a3211b4e86ac0adc58d83aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/ReflectionProbe-6.exr using Guid(cfe18b542a3211b4e86ac0adc58d83aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfdbc1c552feedc7f2ddb5d7e304271') in 0.014354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/Lightmap-1_comp_light.exr
+  artifactKey: Guid(e8745bf64996ca34c923c64cd55aa8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert/Lightmap-1_comp_light.exr using Guid(e8745bf64996ca34c923c64cd55aa8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37129306365ac048b2126631f2895878') in 0.158663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.565648 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert.unity
+  artifactKey: Guid(85380d4847db7b74a850284461349c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert.unity using Guid(85380d4847db7b74a850284461349c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ffbdba33b4858a14d21c0834ebadaa') in 0.000629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 173.555144 seconds.
+  path: Assets/kusa_1.jpg
+  artifactKey: Guid(f24bd6eb2e96c4143bb038987880d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kusa_1.jpg using Guid(f24bd6eb2e96c4143bb038987880d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2113adaa742cb5048f5d814e3183cb90') in 0.061168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 180.326271 seconds.
+  path: Assets/XR/Loaders/WebXRLoader.asset
+  artifactKey: Guid(9e3033307b3644c3988ae40c7ab39eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/WebXRLoader.asset using Guid(9e3033307b3644c3988ae40c7ab39eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028c97659aa7d216214f06c66af7b12f') in 0.003930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.111040 seconds.
+  path: Assets/XR/Settings/WebXRSettings.asset
+  artifactKey: Guid(5e08dbccdd7354ad7b6823e9e1ee2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/WebXRSettings.asset using Guid(5e08dbccdd7354ad7b6823e9e1ee2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711164f6a46463d15802d729f0ec6f81') in 0.001824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.254789 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample
+  artifactKey: Guid(802312f5b62b14f09a191ddc0938719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample using Guid(802312f5b62b14f09a191ddc0938719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41718e0ef5f826c515bbfe0ea741ab93') in 0.000777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.517528 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample/Textures
+  artifactKey: Guid(2059cc09595ad014b81b6a2a85e7597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample/Textures using Guid(2059cc09595ad014b81b6a2a85e7597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd5171becc9b26c5242dbea0110c47') in 0.000607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.480468 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample/Scenes
+  artifactKey: Guid(b15f601b54bbe604e80b619e95b78dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample/Scenes using Guid(b15f601b54bbe604e80b619e95b78dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebdaa22b74c8be2062240fca038e21a') in 0.000578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.375525 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample/Scenes/WebXRInteractionToolkit.unity
+  artifactKey: Guid(73a845277465ae141817f9f07a5772de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/XR Interaction Toolkit Sample/Scenes/WebXRInteractionToolkit.unity using Guid(73a845277465ae141817f9f07a5772de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab425ed7d5da57b5242e45cb3d30056') in 0.000782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 533.492659 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85bec50c8be757587fedfaade313866') in 0.000560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.988715 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert.unity
+  artifactKey: Guid(85380d4847db7b74a850284461349c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Scenes/Desert.unity using Guid(85380d4847db7b74a850284461349c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914774ce425916ca06ae5c759309f347') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.945657 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Blue.mat
+  artifactKey: Guid(6155b57cc2ad36646af70e1122367da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Blue.mat using Guid(6155b57cc2ad36646af70e1122367da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033b19a29044aa336134596da65f0d2d') in 0.138641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/White.mat
+  artifactKey: Guid(dec49ad9b04a4f84d8cc23d75785c58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/White.mat using Guid(dec49ad9b04a4f84d8cc23d75785c58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef72296ac0c73c3f439a9be09e88d987') in 0.039495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Cyan.mat
+  artifactKey: Guid(f8d6f757b9e2b4c2290301f6a22ea109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Cyan.mat using Guid(f8d6f757b9e2b4c2290301f6a22ea109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3800e1373c33620e515d563aac247727') in 0.017640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Red.mat
+  artifactKey: Guid(bc556dbd8de3200439d7078dfd50e0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Red.mat using Guid(bc556dbd8de3200439d7078dfd50e0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1453723b823e8249e26b9482380535ef') in 0.014258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Green.mat
+  artifactKey: Guid(5af4ced906166d244a01db7543017eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/Green.mat using Guid(5af4ced906166d244a01db7543017eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418f4992c72019500bef0d4a0f1235a3') in 0.018997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/SkyBox.mat
+  artifactKey: Guid(d962ad65dd48449f895f64c61616bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/WebXR Interactions/0.20.0/Sample Scene/Materials/SkyBox.mat using Guid(d962ad65dd48449f895f64c61616bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9945386d4370d355e50b248c922978d') in 0.335076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/takushimayuma/webGL_sample/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/takushimayuma/webGL_sample/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.438 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.726 seconds
+Domain Reload Profiling: 3164ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (1047ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (625ms)
+			TypeCache.Refresh (616ms)
+				TypeCache.ScanAssembly (592ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (36.9 KB). Loaded Objects now: 3705.
+Memory consumption went from 134.1 MB to 134.1 MB.
+Total: 5.177045 ms (FindLiveObjects: 0.336682 ms CreateObjectMapping: 0.311842 ms MarkObjects: 4.447490 ms  DeleteObjects: 0.079612 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
